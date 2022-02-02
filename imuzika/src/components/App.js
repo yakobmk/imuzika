@@ -10,6 +10,7 @@ import { BrowserRouter as Router, Route, Routes, Link, generatePath } from 'reac
 
 
 function App() {
+  
 
   const [bigdata, setBigdata] = useState({artist: '', data: [], singles: [], albums: [], features: [], artistLink: '', artistImg: '', genre: []})
 
