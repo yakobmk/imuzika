@@ -26,7 +26,6 @@ function Home (props) {
     }
 
 
-
     return  (
         <div className={css.imuzika}>
             <h1>I MUZIKA</h1>
