@@ -1,0 +1,67 @@
+.imuzika {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    color: white;
+    margin-bottom: 6%;
+    background-image: linear-gradient(black, black, rgb(231, 73, 0));
+
+
+    /* margin-bottom: 40%; */
+
+}
+
+.imuzika h1 {
+    font-size: 5em;
+    color: rgb(231, 73, 0);
+    margin-bottom: 1%;
+}
+
+.imuzika_header {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 40%;
+    height: 5%;
+    border: none;
+    padding: .5%;
+    border-radius: 25px;
+}
+
+.imuzika_header input {
+    width: 80%;
+    border: none;
+    /* height: 150%; */
+    padding: .5%;
+    border-radius: 25px;
+    margin-right: 2%;
+
+}
+
+
+.imuzika_search_options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 2% 0%; */
+}
+
+.imuzika_search_options button {
+    /* margin: 0% 40%; */
+    border-radius: 5px;
+    padding: 9% 25%;
+    border: none;
+    height: 30px;
+    width: 100px;
+    color: white;
+    background-color: rgb(231, 73, 0);
+}
+
+.imuzika_search_options div{
+    margin: 10% 40%;
+}
