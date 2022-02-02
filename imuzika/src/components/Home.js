@@ -33,7 +33,11 @@ function Home (props) {
             {/* <p>IMuzika</p> */}
             <div className={css.imuzika_header}>
                 <input type="text" placeholder="Arist Name" onChange={handleChange}/>
-                <img src={publicUrl('/assets/explore.svg')} alt="Home"/>
+                <Link to='/Header'>
+                    <button onClick={handleSubmit}>
+                        <img src={publicUrl('/assets/explore.svg')} alt="Home"/>
+                    </button>
+                </Link>
             </div>
             <div className={css.imuzika_search_options}>
                 <div>
@@ -45,7 +49,7 @@ function Home (props) {
                 </div>
                 <div>
                     <Link to='/Header'>
-                        <button>
+                        <button onClick={handleSubmit}>
                             <p>Discover</p>
                         </button>
                     </Link>

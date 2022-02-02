@@ -78,7 +78,7 @@ textarea:focus, input:focus{
     justify-content: center;
     align-items: center;
     height: 30vh;
-    background-image: linear-gradient(black , black, rgb(66, 66, 66), white);
+    background-image: linear-gradient(black , black, black, black, black, black, black, rgb(231, 73, 0));
     color: black
     /* border-bottom: 1px solid black; */
 }

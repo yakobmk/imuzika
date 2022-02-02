@@ -13,7 +13,7 @@ function Header(props) {
 
     function handleChange(event) {
         setNewartist(event.target.value);
-        setNewartist(previousVal => previousVal[0].toUpperCase() + previousVal.slice(1));
+        // setNewartist(previousVal => previousVal[0].toUpperCase() + previousVal.slice(1));
     }
 
     function handleSearch() {
@@ -53,7 +53,7 @@ function Header(props) {
                                     </div>
                                     <div className={css.flexing}>
                                         {
-                                            props.bigdata.genre.slice(2).map(musicType =>
+                                            props.bigdata.genre.slice(0,8).map(musicType =>
                                                 <p className={css.detail_decoration, css.pfontmedium}>{musicType}</p>
                                         )}
                                     </div>
